@@ -34,7 +34,7 @@ This toolkit is designed for scraping data from 4chan, ideal for research in fie
   ```
   See the directory: "datasets" for sample data
 
-  scraper_archive = ChanArchiveScraper('directory=datasets', 'file_name=sample_4chan_data.csv')
+  scraper = ChanArchiveScraper('directory=datasets', 'file_name=sample_4chan_data.csv')
   csv_file = scraper.scrape_archive()
 
   scraper_posts = PostScraper(csv_path='datasets/sample_4chan_data.csv',json_file="sample_4chan_data.json")
