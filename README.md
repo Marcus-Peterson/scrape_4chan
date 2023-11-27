@@ -24,10 +24,6 @@ This toolkit is designed for scraping **text data** from 4chan, ideal for resear
   ```python
   python chan_post_scraper.py
   ```
-
-    ```python
-  python chan_archive_scraper.py
-  ```
   The script will scrape the archive and output a CSV file with post numbers and links.
 
 - **Example usages**:
