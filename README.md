@@ -24,6 +24,22 @@ This toolkit is designed for scraping data from 4chan, ideal for research in fie
   ```python
   python chan_post_scraper.py
   ```
+
+    ```python
+  python chan_archive_scraper.py
+  ```
+  The script will scrape the archive and output a CSV file with post numbers and links.
+
+- **Example usages**:
+  ```
+  See the directory: "datasets" for sample data
+
+  scraper_archive = ChanArchiveScraper('datasets', 'sample_4chan_data.csv')
+  csv_file = scraper.scrape_archive()
+
+  scraper_posts = PostScraper(csv_path='datasets/sample_4chan_data.csv',json_file="sample_4chan_data.json")
+  scraper_posts.scrape_posts()
+  ```
   Customize the script with specific thread IDs or CSV paths as needed. The script will process the threads and output a JSON file with structured data.
 
 ## Contributing 🤝
