@@ -2,7 +2,7 @@
 # 4chan Scraping Toolkit 🕵️‍♂️📊
 
 ## Overview 📚
-This toolkit is designed for scraping data from 4chan, ideal for research in fields like hate speech detection and online discourse analysis. It includes tools for scraping archived posts and processing individual threads.
+This toolkit is designed for scraping **text data** from 4chan, ideal for research in fields like hate speech detection and online discourse analysis. It includes tools for scraping archived posts and processing individual threads.
 
 ## Components 🛠️
 - **Archive Scraper (`chan_archive_scraper.py`)**: This script scrapes archived threads from a specified 4chan board. It saves the data in a CSV format, listing post numbers and links.
