@@ -2,15 +2,15 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='4chan-scraping-toolkit',
+    name='chan-scraping-toolkit',
     version='0.1.0',
     packages=find_packages(),
-    description='A toolkit for scraping data from 4chan, suitable for research purposes.',
+    description='A toolkit for scraping text-data from 4chan, suitable for research purposes.',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/your-github-username/4chan-scraping-toolkit',
+    url='https://github.com/Marcus-Peterson/4chan-scraping-toolkit',
     author='Your Name',
-    author_email='your.email@example.com',
+    author_email='https://github.com/Marcus-Peterson',
     license='MIT',
     install_requires=[
         'requests',
